@@ -1,0 +1,74 @@
+﻿  TextureManager.cpp
+  ShaderManager.cpp
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\shadermanager.cpp(104): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  MeshManager.cpp
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\meshmanager.cpp(41): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  main.cpp
+  Game.cpp
+  Window.cpp
+  obj_loader.cpp
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(27): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(84): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(121): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(136): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(164): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(262): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(296): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(329): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(378): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\obj_loader.cpp(386): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  stb_image.c
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\stb_image.c(501): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\fraser\documents\github\graphicsprogrammingcw\courseworkstarter\stb_image.c(514): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl Window::initialiseDisplay(void)" (?initialiseDisplay@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "public: void __cdecl Window::initialiseDisplay(void)" (?initialiseDisplay@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "public: void __cdecl Window::initialiseDisplay(void)" (?initialiseDisplay@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "public: void __cdecl Window::swapBuffer(void)" (?swapBuffer@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl Window::initialiseDisplay(void)" (?initialiseDisplay@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "public: void __cdecl Window::ClearDisplay(float,float,float,float)" (?ClearDisplay@Window@@QEAAXMMMM@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "public: void __cdecl Window::ClearDisplay(float,float,float,float)" (?ClearDisplay@Window@@QEAAXMMMM@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "public: void __cdecl Window::initialiseDisplay(void)" (?initialiseDisplay@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: void __cdecl Window::initialiseDisplay(void)" (?initialiseDisplay@Window@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "private: void __cdecl Game::updateInput(void)" (?updateInput@Game@@AEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol __imp_glEnableClientState referenced in function "private: void __cdecl Game::draw(void)" (?draw@Game@@AEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol __imp_glEnd referenced in function "private: void __cdecl Game::draw(void)" (?draw@Game@@AEAAXXZ)
+MeshManager.obj : error LNK2019: unresolved external symbol __imp_glDrawElements referenced in function "public: void __cdecl MeshManager::DrawMesh(void)" (?DrawMesh@MeshManager@@QEAAXXZ)
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+MeshManager.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewBindAttribLocation
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDetachShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+TextureManager.obj : error LNK2019: unresolved external symbol __imp_glBindTexture referenced in function "public: __cdecl TextureManager::TextureManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0TextureManager@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol __imp_glDeleteTextures referenced in function "public: __cdecl TextureManager::~TextureManager(void)" (??1TextureManager@@QEAA@XZ)
+TextureManager.obj : error LNK2019: unresolved external symbol __imp_glGenTextures referenced in function "public: __cdecl TextureManager::TextureManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0TextureManager@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol __imp_glTexImage2D referenced in function "public: __cdecl TextureManager::TextureManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0TextureManager@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol __imp_glTexParameterf referenced in function "public: __cdecl TextureManager::TextureManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0TextureManager@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol __imp_glTexParameteri referenced in function "public: __cdecl TextureManager::TextureManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0TextureManager@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+TextureManager.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Fraser\Documents\GitHub\GraphicsProgrammingCW\x64\Debug\CourseworkStarter.exe : fatal error LNK1120: 50 unresolved externals
